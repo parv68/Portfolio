@@ -242,6 +242,20 @@ nav ul li a:hover {
     color: #23527c;
 }
 
+.project-card.cta-button {
+    background-color: #2980b9;
+    color: #fff;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 25px;
+    font-size: 1rem;
+    transition: background-color 0.3s ease;
+}
+
+.project-card .cta-button:hover {
+    background-color: #1a5276;
+}
+
 
 /* Footer */
 footer {

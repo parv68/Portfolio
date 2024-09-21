@@ -22,10 +22,6 @@ function loadContent(section) {
                     <h2>About Me</h2>
                     <p>I’m currently pursuing a Bachelor of Computer Application (BCA) and have a passion for web development. I love to build and design web applications that are both functional and aesthetically pleasing. With a focus on clean code and user experience, I’m excited to collaborate on projects that push the boundaries of what the web can do.</p>
                 </div>
-            `;
-            break;
-        case 'skills':
-            content.innerHTML = `
                 <div class="skills">
                     <h2>Skills</h2>
                     <ul>
@@ -35,32 +31,38 @@ function loadContent(section) {
                         <li>Node.js & Express (Basics)</li>
                     </ul>
                 </div>
-            `;
-            break;
-        case 'education':
-            content.innerHTML = `
                 <div class="education">
                     <h2>Education</h2>
                     <p>Bachelor of Computer Application (BCA) - [Your University]</p>
                 </div>
             `;
             break;
-        case 'work':
+        
+        case 'projects':
             content.innerHTML = `
-                <div class="work">
-                    <h2>Work</h2>
-                    <p>Freelance Web Developer - [Details about your freelance work]</p>
+                <div class="projects">
+                    <h2>My Projects</h2>
+                    <div class="project-grid">
+                        <div class="project-card">
+                            <img src="avatar1.jpg" alt="Project 1 Image">
+                            <h3>Project 1: To-Do List App</h3>
+                            <p>A simple to-do list app built with HTML, CSS, and JavaScript.</p>
+                            <a href="https://github.com/parv68/todo-list-app" target="_blank" class="project-link">View Project</a>
+                        </div>
+            
+                        <div class="project-card">
+                            <img src="project2.jpg" alt="Project 2 Image">
+                            <h3>Project 2: Weather App</h3>
+                            <p>A weather app built with HTML, CSS, JavaScript, and API integration.</p>
+                            <a href="https://github.com/parv68/weather-app" target="_blank" class="project-link">View Project</a>
+                        </div>
+            
+
+                    </div>
                 </div>
-            `;
-            break;
-        case 'experience':
-            content.innerHTML = `
-                <div class="experience">
-                    <h2>Experience</h2>
-                    <p>Internship at [Company Name] - [Details about your role and what you did]</p>
-                </div>
-            `;
-            break;
+                `;
+                break;
+
         case 'contact':
             content.innerHTML = `
                 <div class="contact">
@@ -90,8 +92,6 @@ function toggleMenu() {
     const nav = document.querySelector('nav');
     nav.classList.toggle('active');
 }
-
-
 
 // Load home content by default on page load
 document.addEventListener("DOMContentLoaded", () => {

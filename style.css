@@ -76,17 +76,36 @@ nav ul li a:hover {
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 }
 
+
 .hero img {
-    width: 120px;
+    width: 200px;
     border-radius: 50%;
+    padding: 5px;
     margin-bottom: 20px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: 0.5s ease-in-out;
+}
+
+.hero img:hover{
+    width: 250px;
+    transition: 0.5s ease-in-out;
 }
 
 .hero h1 {
     font-size: 2rem;
     margin-bottom: 10px;
     color: #2c3e50;
+}
+
+.hero h1 span{
+    font-size: 3rem;
+    font-weight: bold;
+    transition: 0.3s ease-in-out;
+}
+
+.hero h1 span:hover{
+    font-size: 3.5rem;
+    transition: 0.3s ease-in-out;
 }
 
 .hero p {

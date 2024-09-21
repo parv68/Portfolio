@@ -5,15 +5,13 @@ function loadContent(section) {
         case 'home':
             content.innerHTML = `
                 <div class="hero">
-                    <img src="images/avatar.png" alt="Parv Avatar">
-                    <h1>Hi There, I'm Parv</h1>
+                    <img src="avatar1.jpg" alt="Parv Avatar">
+                    <h1>Hi👋 There, <br> I'm <span>Parv</span></h1>
                     <p>I am a passionate web developer with skills in HTML, CSS, and JavaScript.</p>
                     <a href="#" class="cta-button">About Me</a>
                     <div class="social-media">
                         <a href="https://github.com/parv68" target="_blank"><i class="fab fa-github"></i></a>
-                        <a href="https://www.linkedin.com/in/yourprofile" target="_blank"><i class="fab fa-linkedin"></i></a>
-                        <a href="#"><i class="fab fa-twitter"></i></a>
-                        <a href="#"><i class="fab fa-facebook"></i></a>
+                        <a href="https://www.linkedin.com/in/parv-429659290/" target="_blank"><i class="fab fa-linkedin"></i></a>
                     </div>
                 </div>
             `;

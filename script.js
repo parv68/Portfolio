@@ -42,7 +42,9 @@ function loadContent(section) {
             content.innerHTML = `
                 <div class="projects">
                     <h2>My Projects</h2>
+
                     <div class="project-grid">
+
                         <div class="project-card">
                             <img src="avatar1.jpg" alt="Project 1 Image">
                             <h3>Project 1: To-Do List App</h3>
@@ -56,8 +58,59 @@ function loadContent(section) {
                             <p>A weather app built with HTML, CSS, JavaScript, and API integration.</p>
                             <a href="https://github.com/parv68/weather-app" target="_blank" class="project-link">View Project</a>
                         </div>
-            
+                        <div class="project-card">
+                            <img src="project2.jpg" alt="Project 2 Image">
+                            <h3>Project 2: Weather App</h3>
+                            <p>A weather app built with HTML, CSS, JavaScript, and API integration.</p>
+                            <a href="https://github.com/parv68/weather-app" target="_blank" class="project-link">View Project</a>
+                        </div>
+                        <div class="project-card">
+                            <img src="project2.jpg" alt="Project 2 Image">
+                            <h3>Project 2: Weather App</h3>
+                            <p>A weather app built with HTML, CSS, JavaScript, and API integration.</p>
+                            <a href="https://github.com/parv68/weather-app" target="_blank" class="project-link">View Project</a>
+                        </div>
+                        <div class="project-card">
+                            <img src="project2.jpg" alt="Project 2 Image">
+                            <h3>Project 2: Weather App</h3>
+                            <p>A weather app built with HTML, CSS, JavaScript, and API integration.</p>
+                            <a href="https://github.com/parv68/weather-app" target="_blank" class="project-link">View Project</a>
+                        </div>
+                        <div class="project-card">
+                            <img src="project2.jpg" alt="Project 2 Image">
+                            <h3>Project 2: Weather App</h3>
+                            <p>A weather app built with HTML, CSS, JavaScript, and API integration.</p>
+                            <a href="https://github.com/parv68/weather-app" target="_blank" class="project-link">View Project</a>
+                        </div>
+                        <div class="project-card">
+                            <img src="project2.jpg" alt="Project 2 Image">
+                            <h3>Project 2: Weather App</h3>
+                            <p>A weather app built with HTML, CSS, JavaScript, and API integration.</p>
+                            <a href="https://github.com/parv68/weather-app" target="_blank" class="project-link">View Project</a>
+                        </div>
+                        <div class="project-card">
+                            <img src="project2.jpg" alt="Project 2 Image">
+                            <h3>Project 2: Weather App</h3>
+                            <p>A weather app built with HTML, CSS, JavaScript, and API integration.</p>
+                            <a href="https://github.com/parv68/weather-app" target="_blank" class="project-link">View Project</a>
+                        </div>
+                        <div class="project-card">
+                            <img src="project2.jpg" alt="Project 2 Image">
+                            <h3>Project 2: Weather App</h3>
+                            <p>A weather app built with HTML, CSS, JavaScript, and API integration.</p>
+                            <a href="https://github.com/parv68/weather-app" target="_blank" class="project-link">View Project</a>
+                        </div>
+                        <div class="project-card">
+                            <img src="project2.jpg" alt="Project 2 Image">
+                            <h3>Project 2: Weather App</h3>
+                            <p>A weather app built with HTML, CSS, JavaScript, and API integration.</p>
+                            <a href="https://github.com/parv68/weather-app" target="_blank" class="project-link">View Project</a>
+                        </div>
 
+                    </div>
+
+                    <div class="button">
+                        <a href="#" class="cta-button">View All Projects</a>
                     </div>
                 </div>
                 `;
@@ -86,8 +139,9 @@ function loadContent(section) {
             content.innerHTML = '<p>Content not found.</p>';
     }
 }
+
 // Function to toggle the navigation menu on mobile devices
-// Function to toggle the navigation menu on mobile devices
+
 function toggleMenu() {
     const nav = document.querySelector('nav');
     nav.classList.toggle('active');

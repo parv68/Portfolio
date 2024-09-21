@@ -5,7 +5,7 @@ function loadContent(section) {
         case 'home':
             content.innerHTML = `
                 <div class="hero">
-                    <img src="avatar1.jpg" alt="Parv Avatar">
+                    <img src="./images/avatar1.jpg" alt="Parv Avatar">
                     <h1>Hi👋 There, <br> I'm <span>Parv</span></h1>
                     <p>I am a passionate web developer with skills in HTML, CSS, and JavaScript.</p>
                     <a href="#" class="cta-button">About Me</a>
@@ -46,7 +46,7 @@ function loadContent(section) {
                     <div class="project-grid">
 
                         <div class="project-card">
-                            <img src="tip-calculator.png" alt="tip-calculator Image">
+                            <img src="./images/tip-calculator.png" alt="tip-calculator Image">
                             <h3>Project 1: Tip calculator</h3>
                             <p>A simple tip-calculator built with HTML, CSS and JavaScript.</p>
                             <a href="https://parv68.github.io/tip-calculator/" target="_blank" class="project-link">View Project</a>
@@ -55,7 +55,7 @@ function loadContent(section) {
                         </div>
             
                         <div class="project-card">
-                            <img src="weather-app.png" alt="weather-app Image">
+                            <img src="./images/weather-app.png" alt="weather-app Image">
                             <h3>Project 2: Weather App</h3>
                             <p>A weather app built with HTML, CSS, JavaScript, and API integration.</p>
                             <a href="https://parv68.github.io/weather-app/" target="_blank" class="project-link">View Project</a>
@@ -63,7 +63,7 @@ function loadContent(section) {
                             <a href="https://github.com/parv68/weather-app" target="_blank" class="project-link">View Code</a>
                         </div>
                         <div class="project-card">
-                            <img src="age-calculator.png" alt="age-calculator Image">
+                            <img src="./images/age-calculator.png" alt="age-calculator Image">
                             <h3>Project 3: Age calculator</h3>
                             <p>An age calculator built with HTML, CSS and JavaScript.</p>
                             <a href="https://parv68.github.io/Age-calculator1/" target="_blank" class="project-link">View Project</a>
@@ -71,7 +71,7 @@ function loadContent(section) {
                             <a href="https://github.com/parv68/Age-calculator1" target="_blank" class="project-link">View Code</a>
                         </div>
                         <div class="project-card">
-                            <img src="bmi-calculator.png" alt="bmi-calculator Image">
+                            <img src="./images/bmi-calculator.png" alt="bmi-calculator Image">
                             <h3>Project 4: BMI Calculator</h3>
                             <p>A weather app built with HTML, CSS and JavaScript.</p>
                             <a href="https://parv68.github.io/mass-calculator/" target="_blank" class="project-link">View Project</a>
@@ -79,7 +79,7 @@ function loadContent(section) {
                             <a href="https://github.com/parv68/mass-calculator" target="_blank" class="project-link">View Code</a>
                         </div>
                         <div class="project-card">
-                            <img src="food-delivery.png" alt="food delivery Image">
+                            <img src="./images/food-delivery.png" alt="food delivery Image">
                             <h3>Project 5: Food Delivery</h3>
                             <p>A weather app built with HTML and CSS.</p>
                             <a href="https://parv68.github.io/food-delivery/" target="_blank" class="project-link">View Project</a>
@@ -87,7 +87,7 @@ function loadContent(section) {
                             <a href="https://github.com/parv68/food-delivery" target="_blank" class="project-link">View code</a>
                         </div>
                         <div class="project-card">
-                            <img src="password-generator.png" alt="password generator Image">
+                            <img src="./images/password-generator.png" alt="password generator Image">
                             <h3>Project 6: Password Generator</h3>
                             <p>A weather app built with HTML, CSS and JavaScript</p>
                             <a href="https://parv68.github.io/password-generator/" target="_blank" class="project-link">View Project</a>
@@ -95,7 +95,7 @@ function loadContent(section) {
                             <a href="https://github.com/parv68/password-generator" target="_blank" class="project-link">View Code</a>
                         </div>
                         <div class="project-card">
-                            <img src="text-to-speech.png" alt="Text to speech Image">
+                            <img src="./images/text-to-speech.png" alt="Text to speech Image">
                             <h3>Project 7: Tetx to speech</h3>
                             <p>A weather app built with HTML, CSS and JavaScript.</p>
                             <a href="https://parv68.github.io/text-to-speech/" target="_blank" class="project-link">View Project</a>
@@ -103,7 +103,7 @@ function loadContent(section) {
                             <a href="https://github.com/parv68/text-to-speech" target="_blank" class="project-link">View Code</a>
                         </div>
                         <div class="project-card">
-                            <img src="speech-to-text.png" alt="Speech to text Image">
+                            <img src="./images/speech-to-text.png" alt="Speech to text Image">
                             <h3>Project 8: Speech to text</h3>
                             <p>A weather app built with HTML, CSS and JavaScript.</p>
                             <a href="https://parv68.github.io/speech-to-text/" target="_blank" class="project-link">View Project</a>
@@ -111,7 +111,7 @@ function loadContent(section) {
                             <a href="https://github.com/parv68/speech-to-text" target="_blank" class="project-link">View Code</a>
                         </div>
                         <div class="project-card">
-                            <img src="music-player.png" alt="Music player Image">
+                            <img src="./images/music-player.png" alt="Music player Image">
                             <h3>Project 9: Music Player</h3>
                             <p>A weather app built with HTML, CSS and JavaScript.</p>
                             <a href="https://github.com/parv68/music-player" target="_blank" class="project-link">View Project</a>
@@ -119,7 +119,7 @@ function loadContent(section) {
                             <a href="https://parv68.github.io/music-player/" target="_blank" class="project-link">View Code</a>
                         </div>
                         <div class="project-card">
-                            <img src="todo-app.png" alt="Todo app Image">
+                            <img src="./images/todo-app.png" alt="Todo app Image">
                             <h3>Project 10: Todo app</h3>
                             <p>A weather app built with HTML, CSS, JavaScript, and API integration.</p>
                             <a href="https://github.com/parv68/todo-app" target="_blank" class="project-link">View Project</a>

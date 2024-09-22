@@ -120,17 +120,17 @@ function loadContent(section) {
                             <img src="./images/music-player.png" alt="Music player Image">
                             <h3>Project 9: Music Player</h3>
                             <p>A Music player built with HTML, CSS and JavaScript.</p>
-                            <a href="https://github.com/parv68/music-player" target="_blank" class="project-link">View Project</a>
+                            <a href="https://parv68.github.io/music-player/" target="_blank" class="project-link">View Project</a>
                             <br>
-                            <a href="https://parv68.github.io/music-player/" target="_blank" class="project-link">View Code</a>
+                            <a href="https://github.com/parv68/music-player" target="_blank" class="project-link">View Code</a>
                         </div>
                         <div class="project-card">
                             <img src="./images/todo-app.png" alt="Todo app Image">
                             <h3>Project 10: Todo app</h3>
                             <p>A simple todo app built with HTML, CSS, JavaScript, and API integration.</p>
-                            <a href="https://github.com/parv68/todo-app" target="_blank" class="project-link">View Project</a>
+                            <a href="https://parv68.github.io/todo-app/" target="_blank" class="project-link">View Project</a>
                             <br>
-                            <a href="https://parv68.github.io/todo-app/" target="_blank" class="project-link">View Code</a>
+                            <a href="https://github.com/parv68/todo-app" target="_blank" class="project-link">View Code</a>
                         </div>
 
                     </div>
@@ -146,18 +146,17 @@ function loadContent(section) {
             content.innerHTML = `
                 <div class="contact">
                     <h2>Contact Me</h2>
-                    <form id="contact-form">
+
+                    <form id="contact-form" action="https://formspree.io/f/mjkbqojg" method="POST">
                         <label for="name">Name:</label>
                         <input type="text" id="name" name="name" required>
-                        
                         <label for="email">Email:</label>
                         <input type="email" id="email" name="email" required>
-                        
                         <label for="message">Message:</label>
                         <textarea id="message" name="message" required></textarea>
-                        
                         <button type="submit">Send Message</button>
                     </form>
+
                 </div>
             `;
             break;

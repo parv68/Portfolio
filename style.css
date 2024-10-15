@@ -19,13 +19,24 @@ header {
     padding: 15px 0;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 }
+#logo-img{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    margin: 0;
+    padding: 0;
+}
 
 header .logo {
-    font-size: 1.5rem;
+        font-size: 1.5rem;
     font-weight: 600;
     color: #ecf0f1;
     text-transform: uppercase;
     letter-spacing: 1px;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    gap: 5px;
 }
 
 nav {

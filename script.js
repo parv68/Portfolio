@@ -33,6 +33,7 @@ function loadContent(section) {
                         <li>Tailwind CSS</li>
                         <li>Bootstrap</li>
                         <li>Git (Version Control)</li>
+                        <li>GitHub</li>
                     </ul>
                 </div>
                 <div class="education">
@@ -127,7 +128,7 @@ function loadContent(section) {
                         <div class="project-card">
                             <img src="./images/todo-app.png" alt="Todo app Image">
                             <h3>Project 10: Todo app</h3>
-                            <p>A simple todo app built with HTML, CSS, JavaScript, and API integration.</p>
+                            <p>A simple todo app built with HTML, CSS, JavaScript integration.</p>
                             <a href="https://parv68.github.io/todo-app/" target="_blank" class="project-link">View Project</a>
                             <br>
                             <a href="https://github.com/parv68/todo-app" target="_blank" class="project-link">View Code</a>
